@@ -56,17 +56,17 @@ export const LoginPage = () => {
   };
 
   return (
-    <div className="login-main">
+    <div className="ims-login-main">
   
-      <div className="login-leftcontainer">
+      <div className="ims-login-leftcontainer">
 
-        <div className="login-navbar">
-          <div className="login-logo">
-            <img src={ims} alt="Internims" className="login-ims-image"  />
+        <div className="ims-login-navbar">
+          <div className="ims-login-logo">
+            <img src={ims} alt="Internims" className="ims-login-ims-image"  />
 
-            <div className="login-logo-text">
+            <div className="ims-login-logo-text">
               <h3>Internship Management System</h3>
-              <p className="login-tagline">
+              <p className="ims-login-tagline">
   <span>Learn</span>
   <i></i>
   <span>Grow</span>
@@ -78,52 +78,52 @@ export const LoginPage = () => {
         </div>
 
 
-        <div className="login-left-content">
+        <div className="ims-login-left-content">
           <h1>
             Connecting academic talent with
             <br />
             career-defining corporate internships
           </h1>
 
-          <p className="login-description">
+          <p className="ims-login-description">
             The verified enterprise portal synchronizing university dean
             approvals, experiential learning hours, and Fortune 500 mentorship
             agreements.
           </p>
 
-          <div className="login-stats">
-            <div className="login-stat-card">
+          <div className="ims-login-stats">
+            <div className="ims-login-stat-card">
               <h2>14,200+</h2>
               <p>ACTIVE INTERNS</p>
-              <span><img src={yoy} alt="yoy"  className="login-yoy"/> 24% YoY</span>
+              <span><img src={yoy} alt="yoy"  className="ims-login-yoy"/> 24% YoY</span>
             </div>
 
-            <div className="login-stat-card">
+            <div className="ims-login-stat-card">
               <h2>98.4%</h2>
               <p>CREDIT VERIFIED</p>
-              <span style={{color:"#176789" }}> <img src={deans} alt="deans" className="login-yoy"/> Deans Approved</span>
+              <span style={{color:"#176789" }}> <img src={deans} alt="deans" className="ims-login-yoy"/> Deans Approved</span>
             </div>
 
-            <div className="login-stat-card">
+            <div className="ims-login-stat-card">
               <h2>14,200+</h2>
               <p>ACTIVE INTERNS</p>
-              <span><img src={yoy} alt="yoy" className="login-yoy"/> 24% YoY</span>
+              <span><img src={yoy} alt="yoy" className="ims-login-yoy"/> 24% YoY</span>
             </div>
           </div>
 
 
-          <div className="login-illustration-container">
+          <div className="ims-login-illustration-container">
             <img
               src={login}
               alt="Internship management illustration"
-              className="login-illustration"
+              className="ims-login-illustration"
             />
           </div>
 
-          <div className="login-audit-card">
-            <div><img src={protect} alt="protect" className="login-protect-img" /></div>
+          <div className="ims-login-audit-card">
+            <div><img src={protect} alt="protect" className="ims-login-protect-img" /></div>
 
-            <div className="login-audit-text">
+            <div className="ims-login-audit-text">
               <p>
                 “Automated audit trails cut academic credit clearance time from 14 days to under 48 hours.”
               
@@ -136,17 +136,17 @@ export const LoginPage = () => {
       </div>
 
 
-      <div className="login-rightcontainer">
-        <form className="login-box" onSubmit={handleSubmit}>
+      <div className="ims-login-rightcontainer">
+        <form className="ims-login-box" onSubmit={handleSubmit}>
           <h1>Welcome Back</h1>
 
-          <p className="login-subtitle">Manage your career journey</p>
+          <p className="ims-login-subtitle">Manage your career journey</p>
 
-          <div className="login-field">
+          <div className="ims-login-field">
             <label>Email Address</label>
 
-            <div className="login-input-box">
-              <img src={mail} alt="Email" className="login-input-icon" />
+            <div className="ims-login-input-box">
+              <img src={mail} alt="Email" className="ims-login-input-icon" />
 
               <input
                 type="email"
@@ -157,15 +157,15 @@ export const LoginPage = () => {
             </div>
 
             {errors.email && (
-              <p className="login-error">{errors.email}</p>
+              <p className="ims-login-error">{errors.email}</p>
             )}
           </div>
 
-          <div className="login-password-row">
+          <div className="ims-login-password-row">
             <label>Password</label>
 
             <p
-              className="login-forgot-link"
+              className="ims-login-forgot-link"
               onClick={() => navigate("/components-login/forgotpassword")}
             >
               Forgot Password?
@@ -173,8 +173,8 @@ export const LoginPage = () => {
           </div>
 
 
-          <div className="login-input-box">
-            <img src={lock} alt="Password" className="login-input-icon" />
+          <div className="ims-login-input-box">
+            <img src={lock} alt="Password" className="ims-login-input-icon" />
 
             <input
               type={showPassword ? "text" : "password"}
@@ -186,44 +186,44 @@ export const LoginPage = () => {
             <img
               src={showPassword ? eyeClose : eye}
               alt="Show password"
-              className="login-eye-icon"
+              className="ims-login-eye-icon"
               onClick={() => setShowPassword(!showPassword)}
             />
           </div>
 
           {errors.password && (
-            <p className="login-error">{errors.password}</p>
+            <p className="ims-login-error">{errors.password}</p>
           )}
 
 
-          <div className="login-remember">
+          <div className="ims-login-remember">
             <input type="checkbox" id="keepSignedIn" />
             <label htmlFor="keepSignedIn">Keep me signed in</label>
           </div>
 
 
-          <button className="login-signin-btn" type="submit">
+          <button className="ims-login-signin-btn" type="submit">
             Sign In
             <img src={arrow} alt="Arrow" />
           </button>
 
 
-          <div className="login-divider">
+          <div className="ims-login-divider">
             <span></span>
             <p>OR CONTINUE WITH</p>
             <span></span>
           </div>
 
-          <div className="login-google-align">
-            <button type="button" className="login-google-btn">
+          <div className="ims-login-google-align">
+            <button type="button" className="ims-login-google-btn">
               <img src={google} alt="Google" />
               Google
             </button>
 
-            <p className="login-create">
+            <p className="ims-login-create">
               Don't have an account?{" "}
               <span
-                className="login-create-link"
+                className="ims-login-create-link"
                 onClick={() => navigate("/twostepverification")}
               >
                 Create Account
@@ -232,11 +232,13 @@ export const LoginPage = () => {
           </div>
 
 
-          <div className="login-footer-links">
+          <div className="ims-login-footer-links">
             <a href="#help">Help</a>
             <span>•</span>
             <a href="#privacy">Privacy</a>
-            <span>•</span>
+            <span>
+              &bull;
+            </span>
             <a href="#terms">Terms</a>
           </div>
         </form>
