@@ -1,0 +1,92 @@
+.ims-welcome-main-container{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    background: linear-gradient(to left, #FFFFFF 40%, #566B93 93%);
+    overflow:hidden;
+
+}
+
+.ims-welcome-left-container{
+    width:60%;
+    padding:30px 40px;
+     color:#FFFFFF;
+}
+
+.ims-welcome-title{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.ims-welcome-heading{
+    font-size:24px;
+}
+
+.ims-welcome-subheading{
+    font-size:12px;
+    color: #FFFFFF;
+}
+
+.ims-welcome-illustration-container{
+    width:360px;
+    height:auto;
+}
+
+.ims-welcome-img{
+    width:100%;
+    height:auto;
+}
+
+.ims-welcome-audit{
+  display: flex; 
+  flex-direction: column;
+   gap: 16px; 
+    
+
+}
+
+.ims-welcome-icon{
+    width:20px;
+    height:auto;
+}
+
+.ims-welcome-audit-heading{
+    color: #132A56;
+    font-size:12px;
+}
+
+.ims-welcome-audit-subheading{
+    color: #111112;
+    font-size:12px;
+
+}
+
+.ims-welcome-audit-card{
+    
+display: flex;
+gap: 20px;
+background-color: #FFFFFFBF; 
+padding: 20px;
+border-radius: 12px; 
+  
+}
+
+.hero-line{
+    border: 1px solid #EAE7E5
+}
+
+.ims-welcome-quote p{
+    font-size:12px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+
+}
+.ims-welcome-quote span{
+  
+    font-size:10px;
+    color: #FFFFFF;
+    padding:20px;
+    
+}
+
