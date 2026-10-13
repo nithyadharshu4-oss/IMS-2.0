@@ -45,8 +45,8 @@ const [activeTab, setActiveTab] = useState("Students");
   <span>Next-Generation Placement OS</span>
 </div>
     <h1>
-      <span style={{color:"Black"}}>Seamless</span> <br />
-    <span style={{color:"Black"}}>Internships.</span> <br />
+      <span style={{color:"white"}}>Seamless</span> <br />
+    <span style={{color:"white"}}>Internships.</span> <br />
      <span>Smarter</span><br />
     <span>Management.</span> <br />
      
@@ -107,7 +107,7 @@ and world-class employers.
     Engineered for Efficiency
   </h2>
 <div className='ims-landing-features-link'>
-  <p className='ims-landing-features-p'>Complex placement workflows simplified into an intuitive, high -speed ecosystem <br />designed for scale.</p>
+  <p className='ims-landing-features-p'>Complex placement workflows simplified into an intuitive, high-speed <br />ecosystem designed for scale.</p>
 
   <a href="#">Explore all features
      <img  className='ims-landing-bluearrow' src={bluearrow} alt="arrow" /></a>
@@ -118,10 +118,9 @@ and world-class employers.
       <img src={automated} alt="automated" className="ims-landing-icon" />
 
       <h3>Automated Matching</h3>
-      <p>Oru AI-diven algorithm pairs <br />
-      candidates with their ideal roles based <br />
-      in skills, culture fit, and academic <br />
-      requirements
+      <p>Our AI-diven algorithm pairs candidates 
+        <br /> with their ideal roles based on skills,
+        <br />culture fit, and academic  requirements
       </p>
     </div>
 
@@ -131,7 +130,7 @@ and world-class employers.
       <h3>Real-time Tracking</h3>
 
     <p>
-      Moniter progress from application to <br />
+      Monitor progress from application to <br />
       final eveluation with granular <br />
       dashboards for all stakeholders.
     </p>
@@ -191,9 +190,9 @@ reminders.
       </div>
 
       <div className="ims-landing-student-item">
-        <div className="ims-landing-step-image"><img src={tick} alt="tick" /></div>
+        <div className="ims-landing-step-number"><img src={tick} alt="tick" /></div>
 
-        <div className="ims-landing-step-text">
+        <div>
           <h3>Verified Credentials</h3>
           <p>
             A portable digital record of your internship success.
