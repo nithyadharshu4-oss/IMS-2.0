@@ -1,6 +1,6 @@
 import React from "react";
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
-
+import './App.css'
 import { LoginPage } from "./components-login/LoginPage";
 import {ForgetPassword} from "./components-login/ForgetPassword.jsx";
 import { OtpForgotPassword } from "./components-login/OtpForgotPassword.jsx";
